@@ -1,0 +1,524 @@
+/* line 10, ../sass/style-base-1895032.scss */
+body {
+  color: #666;
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  font-weight: normal;
+}
+
+/* line 18, ../sass/style-base-1895032.scss */
+h1 {
+  font-weight: normal;
+  font-family: "Droid Serif", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin: .45em 0;
+  padding: 0;
+}
+
+/* line 26, ../sass/style-base-1895032.scss */
+h2 {
+  font-weight: normal;
+  font-family: "Droid Serif", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin: .45em 0;
+  padding: 0;
+}
+
+/* line 34, ../sass/style-base-1895032.scss */
+h3 {
+  font-weight: normal;
+  font-family: "Droid Serif", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin: .45em 0;
+  padding: 0;
+}
+
+/* line 42, ../sass/style-base-1895032.scss */
+h4 {
+  font-weight: normal;
+  font-family: "Droid Serif", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin: .45em 0;
+  padding: 0;
+}
+
+/* line 50, ../sass/style-base-1895032.scss */
+h5 {
+  font-weight: normal;
+  font-family: "Droid Serif", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin: .45em 0;
+  padding: 0;
+}
+
+/* line 58, ../sass/style-base-1895032.scss */
+h6 {
+  font-weight: normal;
+  font-family: "Droid Serif", Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin: .45em 0;
+  padding: 0;
+}
+
+/*********************************/
+@keyframes animale {
+  0%{
+    transform: rotate(0deg) scale(0.3) ;
+	
+  
+  }
+  20% {
+	  
+    transform: rotate(360deg) scale(0.5); 
+ 
+  }
+  50% {
+	  
+    transform: rotate(360deg) scale(1); 
+  
+  }
+  75% {
+	 Z-index: 2; 
+
+	transform: scaleX(0.5) rotateY(90deg); 
+    /*transform: rotate (360deg) scale(1.0);
+	 
+    -ms-transform: rotate (360deg)scale(1.0);
+    -webkit-transform: rotate(360deg)scale(1.0);*/
+  }
+  100% {
+	/*-webkit-transform: translate(200px);
+	-ms-transform: translate(200px);
+	transform: translate(200px);
+    transform: rotate(360deg)scale(1.0);
+	 
+    -ms-transform: rotate(360deg)scale(1.0);
+    -webkit-transform: rotate(360deg)scale(1.0);*/
+	Z-index: 2; 
+
+	transform: scaleX(0.3) rotateY(360deg);
+
+  }
+	
+}
+#logo{
+			width:3cm;
+			height:auto;
+			-webkit-animation: animale 5s infinite linear ;
+			-moz-animation: animale 5s infinite linear ;	/* Firefox */
+			-webkit-animation: animale 5s infinite linear ;	/* Safari ºÍ Chrome */
+			-o-animation: animale 5s infinite linear ;
+			-webkit-transform-origin: center center;
+			-ms-transform-origin: center center;
+			transform-origin: center center;
+}
+
+
+
+/***********************************/
+
+/* line 66, ../sass/style-base-1895032.scss */
+a {
+  color: #0099ff;
+}
+/* line 68, ../sass/style-base-1895032.scss */
+a:visited {
+  color: #0099ff;
+}
+/* line 71, ../sass/style-base-1895032.scss */
+a:active {
+  color: #0099ff;
+}
+/* line 74, ../sass/style-base-1895032.scss */
+a:hover {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+/* line 79, ../sass/style-base-1895032.scss */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* line 83, ../sass/style-base-1895032.scss */
+.conteneur {
+  width: 92%;
+  margin: 0 auto;
+}
+
+/* line 87, ../sass/style-base-1895032.scss */
+header {
+  padding: 15px 0;
+}
+
+/* line 90, ../sass/style-base-1895032.scss */
+#banner {
+  text-align: center;
+}
+
+/* line 93, ../sass/style-base-1895032.scss */
+#hero {
+  background: #f3f3f3;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0;
+}
+/* line 98, ../sass/style-base-1895032.scss */
+#hero h1 {
+  line-height: 1.2em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/* line 104, ../sass/style-base-1895032.scss */
+#page-header {
+  background: #f3f3f3;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0;
+}
+
+/* line 110, ../sass/style-base-1895032.scss */
+#contenu {
+  margin: 40px 0;
+}
+
+/* line 113, ../sass/style-base-1895032.scss */
+aside {
+  margin: 40px 0;
+}
+
+/* line 116, ../sass/style-base-1895032.scss */
+p {
+  margin: 0 0 1.5em;
+}
+
+/* line 119, ../sass/style-base-1895032.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 123, ../sass/style-base-1895032.scss */
+.menu-toggle {
+  display: block;
+  padding: 10px;
+  margin: 20px 0 0;
+  background: #666;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/* line 133, ../sass/style-base-1895032.scss */
+.menu-toggle.toggled-on {
+  background: #0099ff;
+}
+
+/* line 136, ../sass/style-base-1895032.scss */
+.srt-menu.toggled-on {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+/* line 141, ../sass/style-base-1895032.scss */
+.srt-menu {
+  clear: both;
+  margin-bottom: 60px;
+}
+/* line 145, ../sass/style-base-1895032.scss */
+.srt-menu li a {
+  background: #dadada;
+  display: block;
+  margin: 1px 0;
+  padding: 10px;
+  text-decoration: none;
+}
+/* line 151, ../sass/style-base-1895032.scss */
+.srt-menu li a:hover {
+  background: #0099ff;
+  color: #fff;
+}
+
+/* line 158, ../sass/style-base-1895032.scss */
+footer {
+  clear: both;
+  font-size: 80%;
+  padding: 20px 0;
+  text-align: center;
+  background: #333;
+  color: #ccc;
+}
+/* line 165, ../sass/style-base-1895032.scss */
+footer ul {
+  margin: 0;
+  padding: 0;
+  margin: 0 0 0 8%;
+}
+/* line 170, ../sass/style-base-1895032.scss */
+footer h1 {
+  color: #CCC;
+  margin-bottom: 10px;
+}
+/* line 174, ../sass/style-base-1895032.scss */
+footer h2 {
+  color: #CCC;
+  margin-bottom: 10px;
+}
+/* line 178, ../sass/style-base-1895032.scss */
+footer h3 {
+  color: #CCC;
+  margin-bottom: 10px;
+}
+/* line 182, ../sass/style-base-1895032.scss */
+footer h4 {
+  color: #CCC;
+  margin-bottom: 10px;
+}
+
+/* line 187, ../sass/style-base-1895032.scss */
+a.buttonlink {
+  background: #0099ff;
+  border-radius: 7px;
+  color: #fff;
+  display: block;
+  float: left;
+  margin: 10px 15px 10px 0;
+  padding: 10px;
+  text-decoration: none;
+}
+/* line 196, ../sass/style-base-1895032.scss */
+a.buttonlink:hover {
+  background: #8dbc01;
+}
+
+/* line 200, ../sass/style-base-1895032.scss */
+.greenelement {
+  background: #5ec79e;
+  color: #fff;
+}
+
+/* line 204, ../sass/style-base-1895032.scss */
+.violetelement {
+  background: #887dc2;
+  color: #fff;
+}
+
+/* line 209, ../sass/style-base-1895032.scss */
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+/* line 213, ../sass/style-base-1895032.scss */
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* line 220, ../sass/style-base-1895032.scss */
+.row:before {
+  content: " ";
+  display: table;
+}
+/* line 224, ../sass/style-base-1895032.scss */
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* line 231, ../sass/style-base-1895032.scss */
+.container:after {
+  clear: both;
+}
+
+@media only screen and (min-width: 481px) {
+  /* line 236, ../sass/style-base-1895032.scss */
+  #banner {
+    float: left;
+    text-align: left;
+    margin-bottom: -5px;
+  }
+
+  /* line 241, ../sass/style-base-1895032.scss */
+  .menu-toggle {
+    margin-top: 10px;
+    float: right;
+  }
+}
+@media only screen and (min-width: 920px) {
+  /* line 247, ../sass/style-base-1895032.scss */
+  .conteneur {
+    max-width: 1200px;
+    margin: .75em auto;
+  }
+
+  /* line 251, ../sass/style-base-1895032.scss */
+  #banner {
+    float: left;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  /* line 256, ../sass/style-base-1895032.scss */
+  header {
+    padding: 0;
+  }
+
+  /* line 259, ../sass/style-base-1895032.scss */
+  #contenu {
+    float: left;
+    width: 65%;
+  }
+
+  /* line 263, ../sass/style-base-1895032.scss */
+  #contenu.contenu-large {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 267, ../sass/style-base-1895032.scss */
+  aside {
+    float: right;
+    width: 30%;
+  }
+
+  /* line 271, ../sass/style-base-1895032.scss */
+  .menu-toggle {
+    display: none;
+  }
+
+  /* line 274, ../sass/style-base-1895032.scss */
+  #menu-principale-navigation {
+    display: block;
+  }
+
+  /* line 277, ../sass/style-base-1895032.scss */
+  .srt-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin: .35em 0 0 0;
+  }
+  /* line 283, ../sass/style-base-1895032.scss */
+  .srt-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  /* line 288, ../sass/style-base-1895032.scss */
+  .srt-menu li {
+    float: left;
+    position: relative;
+    margin-left: 1px;
+  }
+  /* line 292, ../sass/style-base-1895032.scss */
+  .srt-menu li a {
+    background: #fff;
+    margin: 0;
+    padding: 10px 20px;
+    height: 45px;
+  }
+  /* line 299, ../sass/style-base-1895032.scss */
+  .srt-menu li li a {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    background: #333;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding-left: 20px;
+    height: auto;
+  }
+  /* line 309, ../sass/style-base-1895032.scss */
+  .srt-menu li:hover > a {
+    color: #fff;
+    background: #0099ff;
+  }
+  /* line 315, ../sass/style-base-1895032.scss */
+  .srt-menu a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: #0099ff;
+  }
+  /* line 320, ../sass/style-base-1895032.scss */
+  .srt-menu a:visited {
+    color: #0099ff;
+  }
+  /* line 325, ../sass/style-base-1895032.scss */
+  .srt-menu li.current a {
+    color: #fff;
+    background: #0099ff;
+  }
+
+  /* line 331, ../sass/style-base-1895032.scss */
+  #topnav {
+    float: right;
+    margin: .35em 0 0 0;
+  }
+
+  /* line 335, ../sass/style-base-1895032.scss */
+  .grid_4 {
+    margin-bottom: 40px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    display: block;
+    width: 33.33333333%;
+  }
+
+  /* line 345, ../sass/style-base-1895032.scss */
+  .grid_5 {
+    margin-bottom: 40px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    display: block;
+    width: 41.66666667%;
+  }
+
+  /* line 355, ../sass/style-base-1895032.scss */
+  .grid_7 {
+    margin-bottom: 40px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    display: block;
+    width: 58.33333333%;
+  }
+
+  /* line 365, ../sass/style-base-1895032.scss */
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  /* line 369, ../sass/style-base-1895032.scss */
+  .rightfloat {
+    float: right;
+  }
+
+  /* line 373, ../sass/style-base-1895032.scss */
+  #hero [class*="grid_"] {
+    margin-bottom: -20px;
+  }
+}
+
+label
+{
+	display: inline-block;
+	width: 80px;
+}
+
+ 
